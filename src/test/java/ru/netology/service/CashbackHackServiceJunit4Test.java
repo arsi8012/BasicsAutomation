@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CashbackHackServiceTest {
+public class CashbackHackServiceJunit4Test {
 
     CashbackHackService cashback = new CashbackHackService();
 
