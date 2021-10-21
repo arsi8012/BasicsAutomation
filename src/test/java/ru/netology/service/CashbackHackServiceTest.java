@@ -16,15 +16,8 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldRemainIfAmountMoreThen1000() {
-        int executed = 900;
-        int actual = cashback.remain(1100);
-        assertEquals(executed, actual);
-    }
-
-    @Test
     public void shouldRemainIfAmountEgual1000() {
-        int executed = 1000;
+        int executed = 0;
         int actual = cashback.remain(1000);
         assertEquals(executed, actual);
     }
